@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+.header {
+  width: 100%;
+  height: 900px;
+  background-color: #f3f7fb 100%;
+  background-image: radial-gradient(
+    circle 675px at center,
+    #ffffff 0%,
+    #f3f7fb 100%
+  );
+}
+.container {
+  width: 1170px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  margin-bottom: 90px;
+}
+.logo {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+
+  color: #000000;
+}
+.logo span {
+  color: #5abb33;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.nav-item {
+  margin-right: 50px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-desk {
+  width: 500px;
+  padding-top: 90px;
+}
+.header-title {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+.header-btn {
+  display: inline-block;
+  height: 65px;
+  border-radius: 60px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #fadb60;
+  background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 65px;
+}
+
+.header-photo {
+  width: 670px;
+}
+
+.header-socual-item {
+  color: #3d3e3f;
+  font-size: 27px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.header-socual-item:last-child {
+  margin-right: 0;
+}
+.header-socual-item:hover {
+  opacity: 0.8;
+}
+.footer {
+  height: 114px;
+  width: 100%;
+  background-color: #232323;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+}
+.footer:before {
+  content: "";
+  display: table;
+}
+.footer a {
+  color: #fada5a;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
